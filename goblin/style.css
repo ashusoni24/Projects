@@ -24,9 +24,12 @@ header{
     font-size: 30px;
     font-weight: 700;
     color: white;
+    margin-left: 50px;
 }
 .navlist{
     display: flex;
+    margin-right: 50px;
+    
 }
 .navlist a{
     color: white;
@@ -88,7 +91,8 @@ section{
 }
 .hero-img img{
     width: 700px;
-    height: auto;
+    height: 450px;
+  
 }
 .hero-text a{
     
@@ -111,7 +115,7 @@ section{
 }
 .hero-text a.ctaa{
     background: transparent;
-    border: 1px soli white;
+    border: 1px solid white;
     margin-left: 20px;
 }
 .hero-text a.ctaa i{
@@ -119,3 +123,40 @@ section{
     margin-right: 5px;
 
 }
+.icons{
+     position: absolute; 
+     top: 46%;
+     padding: 0 9%;
+     transform: translateY(-50px);
+    }
+.icons i{
+    margin: 26px;
+    font-size:24px ;
+    color: white;
+    transition: all .50s ease;
+    display:block;
+}
+.icons i:hover{
+    color: #4d9559;
+    transform: translateY(-5px);
+}
+.scroll-down{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    
+    
+}
+.scroll-down i{
+    color: white;
+    padding: 12px;
+    font-size: 25px;
+    background:#4d9559 ;
+    border-radius: 30px;
+    transition: all .50s ease;
+    display: block;
+}
+.scroll-down i:hover{
+    transform: translateY(-5px);
+}
+
